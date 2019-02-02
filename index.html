@@ -16,19 +16,21 @@ body {
 }
 @keyframes animacija
 {
-0%,10% {transform: rotate(-110deg);}
-13%,23% {transform: rotate(16deg);}
-26%,39% {transform: rotate(74deg);}
-39%,49% {transform: rotate(-96deg);}
-52%,62% {transform: rotate(84deg);}
-65%,75% {transform: rotate(45deg);}
-78%,88% {transform: rotate(-20deg);}
-91%,100% {transform: rotate(-110deg);}
+0% {transform: rotate(-110deg);}
+12.5% {transform: rotate(16deg);}
+25% {transform: rotate(74deg);}
+37.5% {transform: rotate(-96deg);}
+50% {transform: rotate(84deg);}
+62.5% {transform: rotate(45deg);}
+75% {transform: rotate(-20deg);}
+87.5% {transform: rotate(17deg);}
+100% {transform: rotate(-110deg);}
 }
 #rodykle {
   transform: rotate(-110deg);
   transform-origin:50% 100%;
-  animation: animacija 15s ease-in-out;
+  animation-delay: animacija 5s;
+  animation: animacija 20s ease-in-out;
   animation-direction:alternate;
 }
 #rodykle {
